@@ -148,9 +148,9 @@ class Explorer:
 if __name__ == '__main__':
     from kiteconnect import KiteConnect
 
-    _api_key = 'x5gp1v3ua5s47zm3'
-    _api_secret = 't73uxlbv627phq4wz4hvca2a3gngbe5v'
-    _access_token = 'z0NKzoKYJBuZrPdA0kaO1FS9jtEpcL5e'
+    _api_key = ''
+    _api_secret = ''
+    _access_token = ''
     _kite = KiteConnect(api_key=_api_key)
     _kite.set_access_token(_access_token)
 

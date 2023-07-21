@@ -36,8 +36,8 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.kite.trade', port
 # https://blog.muya.co.ke/configuring-multiple-loggers-python/
 
 # TODO: Keep them in a File
-api_key = 'x5gp1v3ua5s47zm3'
-api_secret = 't73uxlbv627phq4wz4hvca2a3gngbe5v'
+api_key = ''
+api_secret = ''
 kite = KiteConnect(api_key=api_key)
 
 # print(kite.login_url())
@@ -49,7 +49,7 @@ kite = KiteConnect(api_key=api_key)
 # os.system('rm ' + TRADES_LOG_FILE)
 # exit(0)
 
-access_token = 'zF07RlRnd3CrPjAdMeXVysbRa2HAcePX'
+access_token = ''
 kite.set_access_token(access_token)
 try:
     profile = kite.profile()
